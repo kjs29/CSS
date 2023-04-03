@@ -1,2 +1,1 @@
-# This repository contains my notes on CSS
-
+# This repository contains my notes on HTML/CSS
