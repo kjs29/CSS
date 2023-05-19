@@ -2,7 +2,7 @@
 
 `CSS questions`
 
-## What keyword controls when the child content is too large for the parent container?
+## What property controls when the child content is too large for the parent container?
 
 <details>
 
@@ -56,6 +56,29 @@ div.headline {
   30px
     
   vertical margins don't add together, but it collapses the larger value of the two.
+</details>
+  
+## The total height of the .box is 142px, if you don't want the total height to be affected by paddings and margins, what should you do?
+  
+```css
+.box {
+  padding: 1px;
+  margin: 20px;
+  height: 100px;
+  width: 50px;
+```
+<details>
+
+  <summary>answer</summary>
+  
+  On top of the css file, add
+    
+  ```css
+  * {
+    box-sizing: border-box;  
+  }
+  ```
+    
 </details>
 
     
